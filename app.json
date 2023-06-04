@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "reactnativereduxtodo",
+    "name": "ToDo",
     "slug": "reactnativereduxtodo",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -15,16 +15,24 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.rajeshsingh.reactnativereduxtodo"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.rajeshsingh.reactnativereduxtodo"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "owner": "rajeshsingh",
+    "extra": {
+      "eas": {
+        "projectId": "2a713dd1-1e62-4049-97fd-9ae24d0f902d"
+      }
     }
   }
 }
